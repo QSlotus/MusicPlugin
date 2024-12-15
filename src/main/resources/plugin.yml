@@ -1,0 +1,13 @@
+name: MusicPlugin
+main: top.qiusyan.MusicPlugin
+version: 0.0.1
+api-version: 1.18
+commands:
+  music:
+    description: Music plugin commands
+    usage: /<command> search <song_name> or /<command> play <song_id>
+    permission: musicplugin.command
+permissions:
+  musicplugin.command:
+    description: Allows the use of music commands
+    default: true
